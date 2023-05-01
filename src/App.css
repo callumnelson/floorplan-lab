@@ -3,10 +3,76 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 div {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#root {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floorplan {
+  width: 500px;
+  height: 500px;
   border: 1px solid grey;
-  margin: 5px;
-  padding: 5px;
+}
+
+.bedroom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  color: #242424;
+}
+
+.kitchen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+  width: 300px;
+}
+
+.label-wrapper {
+  align-self: center;
+  color: #242424;
+  margin-top: 90px;
+}
+
+.appliance-wrapper {
+  border: none;
+  display: flex;
+}
+
+.oven, .sink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: start;
+  align-self: end;
+  background-color: silver;
+  width: 50px;
+  height: 50px;
+}
+
+.sink {
+  background-color: darkblue;
 }

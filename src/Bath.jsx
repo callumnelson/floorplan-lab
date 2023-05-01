@@ -3,7 +3,7 @@
 function Bath(props) {
 
   return (
-    <div>
+    <div className="bath">
       <h4>{props.size} Bath</h4>
     </div>
   )
