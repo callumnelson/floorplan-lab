@@ -3,9 +3,9 @@
 function LivingRoom() {
 
   return (
-    <>
-     
-    </>
+    <div>
+      <h4>Living Room</h4>
+    </div>
   )
 }
 

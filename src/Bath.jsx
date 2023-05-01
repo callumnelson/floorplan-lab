@@ -1,11 +1,11 @@
 
 
-function Bath() {
+function Bath(props) {
 
   return (
-    <>
-     
-    </>
+    <div>
+      <h4>{props.size} Bath</h4>
+    </div>
   )
 }
 
