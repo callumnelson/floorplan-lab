@@ -15,7 +15,6 @@ h4 {
 div {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 #root {
@@ -51,6 +50,11 @@ div {
   width: 300px;
 }
 
+#bed-3 {
+  height: 100px;
+  width: 400px;
+}
+
 .label-wrapper {
   align-self: center;
   color: #242424;
@@ -75,4 +79,30 @@ div {
 
 .sink {
   background-color: darkblue;
+}
+
+.living-room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: orange;
+}
+
+.full-bath {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100px;
+  background-color: gold;
+}
+
+.half-bath {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: green;
+  width: 100px;
 }

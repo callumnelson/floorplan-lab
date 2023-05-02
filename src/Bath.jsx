@@ -3,7 +3,7 @@
 function Bath(props) {
 
   return (
-    <div className="bath">
+    <div className={`${props.size.toLowerCase()}-bath`}>
       <h4>{props.size} Bath</h4>
     </div>
   )
